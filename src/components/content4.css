@@ -1,0 +1,5 @@
+.content4-bg {
+    background-color: #000;
+    height: auto;
+    border-bottom: 8px solid var(--border-dark);
+}

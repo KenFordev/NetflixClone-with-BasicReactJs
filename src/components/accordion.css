@@ -1,0 +1,31 @@
+.acc-bg {
+    background-color: #000;
+    height: auto;
+}
+.acc-content {
+    width: 70%;
+}
+.acc-con-item {
+    background: #303030;
+    cursor: pointer;
+}
+.acc-con-item h1 {
+    font-size: 1.5rem;
+}
+.acc-subtitle p {
+    font-size: 1.4rem;
+    color: #fff;
+    background-color: #303030;
+    padding: 2rem 1.7rem;
+}
+.acc-subtitle > .active {
+    display: block;
+}
+.acc-subtitle .inactive {
+    display: none;
+}
+@media only screen and (max-width: 960px) {
+    .acc-content {
+        width: 100%;
+    }
+}

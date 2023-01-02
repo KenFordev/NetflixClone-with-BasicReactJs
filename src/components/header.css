@@ -1,0 +1,48 @@
+.bg-header {
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,.9)), url(../assets/bg-netflix.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.header-con {
+    height: 100vh;
+}
+.nav-con {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    height: 100px;
+}
+.logo h2 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    cursor: default;
+}
+.nav-rigth {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sign-in {
+    text-align: center;
+}
+.sign-in .btn{
+    width: 100px;
+}
+.nav-select {
+    margin-right: 2rem;
+}
+.head-content {
+    margin-top: 22rem;
+}
+.head-content h1 {
+    font-size: 4rem;
+}
+.form-group  {
+    width: 50%;
+}
+.form-group input {
+    padding: 1rem;
+}

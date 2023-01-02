@@ -1,0 +1,23 @@
+:root {
+    --border-dark: rgb(28, 28, 28);
+}
+
+.content-bg {
+    background-color: #000;
+    overflow: hidden;
+    border-top: 8px solid var(--border-dark);
+    border-bottom: 8px solid var(--border-dark);
+}
+.con-container {
+    margin-top: 3rem;
+}
+.image-item {
+    position: relative;
+}
+.v-item {
+    position: absolute;
+    width: 72.4%;
+    top: 49%;
+    left: 49.7%;
+    transform: translate(-50%, -50%);
+}

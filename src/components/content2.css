@@ -1,0 +1,37 @@
+:root {
+    --text-primary: #0071eb;
+}
+
+.content2-bg {
+    background-color: #000;
+    overflow: hidden;
+    height: auto;
+    border-bottom: 8px solid var(--border-dark);
+}
+.item-left1 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.poster {
+    background-color: #000;
+    bottom: 1.3rem;
+    position: absolute;
+    border: 3px solid var(--border-dark);
+}
+.poster-item .logo-download {
+    font-size: 2.3rem;
+}
+.poster-item img {
+    height: 100px;
+    object-fit: cover;
+}
+.poster-item h3,.poster-item p{
+    padding: 0 2rem;
+}
+.poster-item p {
+    color: var(--text-primary);
+}
+.logo-download {
+    color: var(--text-primary);
+}
